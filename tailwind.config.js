@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        avenir: ['Avenir', 'sans-serif'],
+        avenir2: ['Avenir', 'sans-serif'],
+        avenir: ['Wix Madefor Display', 'sans-serif']
       },
       colors: {
         'mainBlue': "#0070B8",
