@@ -17,8 +17,8 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <header className='w-full bg-mainBlue border-white border-b-[0.1px] border-opacity-40 fixed no-select'>
-            <nav className='flex gap-8 justify-between items-center mx-4 py-4 max-container relative z-[1000]'>
+        <header className='w-full bg-mainBlue border-white border-b-[0.1px] border-opacity-40 fixed no-select z-10'>
+            <nav className='flex gap-8 justify-between items-center mx-4 py-4 max-container relative'>
                 {/*NAVBAR*/}
                 <Link to="/" className='min-w-[200px]'>
                     <img to="/" src={logo} alt="Logo" width={200} />
