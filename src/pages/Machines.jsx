@@ -22,7 +22,7 @@ const Machines = () => {
                     <div key={item.key} className="col-span-1 lg:col-span-2 mb-4">
                         <div className="flex justify-center items-center flex-col text-center font-avenir text-white shadow-lg">
                             <div className='w-full flex flex-col md:flex-row justify-around items-center'>
-                                <img className='max-md:w-40 w-64 m-3' src={item.src} alt="" />
+                                <img className='max-md:w-50 w-80 m-3' src={item.src} alt="" />
                                 <div className='text-md py-4'>
                                     <p className='mx-2'>{item.desc1}</p>
                                     <p className='mx-2'>{item.desc2}</p>
@@ -44,9 +44,9 @@ const Machines = () => {
                 {roomMachines.map((item) => (
                     <div key={item.key} className="col-span-1 lg:col-span-2 mb-4">
                         <div className="flex justify-center items-center flex-col text-center font-avenir text-white shadow-lg">
-                            <div className='w-full flex flex-row justify-evenly items-center'>
-                                <img className='w-[50%] md:w-[40%] shadow-xl m-4' src={item.src} alt="" />
-                                <div className='text-md'>
+                            <div className='w-full flex flex-col md:flex-row justify-evenly items-center'>
+                                <img className='w-[80%] md:w-[50%] lg:w-[35%] shadow-xl m-4' src={item.src} alt="" />
+                                <div className='text-md py-4'>
                                     <p className='mx-2'>{item.desc1}</p>
                                     <p className='mx-2'>{item.desc2}</p>
                                     <p className='mx-2'>{item.desc3}</p>
