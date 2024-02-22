@@ -2,11 +2,11 @@ import SwiperHome from "../components/SwiperHome"
 
 const Home = () => {
     return (
-        <main className="mt-[5em] no-select">
-            <div className="relative    ">
+        <main className=" flex justify-center items-center mt-[5em] no-select">
+            <div className='w-full'>
                 <SwiperHome />
             </div>
-        </main>
+        </main >
     )
 }
 

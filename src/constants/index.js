@@ -66,6 +66,21 @@ export const socialMedia = [
     { src: youtube, alt: "youtube", href: "https://www.youtube.com" },
 ]
 
+export const swiperMachines = [
+    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner5.jpg", id:"1"},
+    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-1.jpg", id:"2"},
+    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-2.jpg", id:"3"},
+    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-3.jpg", id:"4"},
+]
+
+export const swiperEngines = [
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner3.jpg", id:1},
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg", id:2},
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-1.jpg", id:3},
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-3.jpg", id:4},
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-4.jpg", id:5},
+]
+
 export const portableMachines = [
     { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"1", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: car },
     { name: "BUGGY DOBLE DE 1 - 4 PUESTOS", key:"2", desc1: "• Motor a Gasolina", desc2: "• Motor Eléctrico", desc3: "• De 1 - 4 unidades de ordeño", src: car },

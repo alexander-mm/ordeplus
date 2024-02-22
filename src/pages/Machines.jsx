@@ -1,5 +1,5 @@
 import { portableMachines, roomMachines } from '../constants'
-import { banner } from '../assets/images'
+import { banner5 } from '../assets/images'
 
 const Machines = () => {
     return (
@@ -10,7 +10,7 @@ const Machines = () => {
             <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg mb-4'></div>
             <div
                 className="banner-image h-[300px] md:h-[400px] xl:h-[500px]"
-                style={{ backgroundImage: `url(${banner})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                style={{ backgroundImage: `url(${banner5})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
             </div>
             <h1 className="text-white text-center font-avenir text-[24px] lg:text-[30px] mt-3">
