@@ -20,7 +20,7 @@ const Products = () => {
                             <div key={item.name} className="text-white">
                                 <div className="flex justify-center items-center flex-col text-center font-avenir shadow-xl">
                                     <div className='p-4 w-full flex flex-row justify-evenly items-center'>
-                                        <img className='max-md:w-52 w-64' src={item.src} alt="" />
+                                        <img className='max-md:w-44 w-64' src={item.src} alt="" />
                                         <div className='text-sm text-start ml-4'>
                                             <p>{item.brand}</p>
                                             <p>{item.from}</p>

@@ -133,10 +133,11 @@ const Navbar = () => {
                         width={28}
                         height={28}
                         onClick={() => setToggle((prev) => !prev)}
+                        className={`transition-transform duration-300 transform ${toggle ? 'rotate-90' : 'rotate-0'}`}
                     />
-                    <div className={`${toggle ? 'flex' : 'hidden'} fixed top-0 right-0 h-full px-8 pt-4 pb-44 mt-[3.3em] justify-start text-center flex-col gap-y-4 bg-mainBlue z-[900] overflow-y-auto border-white border-l-[0.1px] border-opacity-40`}>
+                    <div className={`${toggle ? 'flex translate-x-0' : 'hidden translate-x-full'} fixed top-0 right-0 h-full px-8 pt-4 pb-44 mt-[3.75em] justify-start text-center flex-col gap-y-4 bg-mainBlue z-[900] overflow-y-auto border-white border-l-[0.1px] border-opacity-40 transition-transform duration-300 transform`}>
                         <ul className='flex flex-col justify-start items-center'>
-                            <div className='fixed inset-y-0 right-2 top-[15%]'>
+                            <div className='fixed inset-y-0 right-2 top-[6%]'>
                                 <img src={arrow} alt="" width="35px" className='rotate-90' />
                             </div>
                             {navLinks.map((item, index) => (

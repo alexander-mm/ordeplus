@@ -369,7 +369,7 @@ export const products = [
         category: "MANGUERAS Y OTROS",
         items: [
             { 
-                name: "MEDIDOR WAIKATO",
+                name: "MEDIDOR PROPORCIONAL",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/medidor.png",
                 brand: "● MARCA: WAIKATO",
                 desc: "● FABRICADO EN: Polisulfona",
@@ -388,7 +388,7 @@ export const products = [
             },
             { 
                 name: "MANGUERA DOBLE PVC 5/16 - VACÍO",
-                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/vacuum-hose.png",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/vacuum-hose-2.png",
                 brand: "● MARCA: +THRUST",
                 desc: "● GRADO ALIMENTICIO",
                 desc2: "● Resistente a las condiciones de vacío requerido ",
@@ -421,7 +421,7 @@ export const supplies = [
                 desc: "● Detergente Alcalino Clorado",
                 desc2: "● Contribuye a la reducción de Unidades Formadoras de Colonias",
                 desc3: "● Limpieza en equipos de ordeño, tanques y sistemas automáticos",
-                desc4: "● Remueve residuos de grasa y otras bacterias presentes en mangueras y tuberías",                
+                desc4: "● Remueve residuos de grasa y otras bacterias.",                
             },
             {
                 name: "ACIDO",
@@ -439,7 +439,7 @@ export const supplies = [
                 brand: "●  MARCA: JabónDeLac",
                 desc: "● Detergente Neutro Concentrado",
                 desc2: "● No afecta las manos del operario",
-                desc3: "● Eficiente en procesos de limpieza manual para todo tipo de superficies",
+                desc3: "● Eficiente en procesos de limpieza manual para todas las superficie",
                 desc4: "● Remueve suciedad pesada como grasas",                
                 desc5: "● Alta concentración",                
             },
@@ -448,7 +448,7 @@ export const supplies = [
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/chlorine.png",
                 brand: "● MARCA: SaniLac",
                 desc: "● Desinfectante Clorado",
-                desc2: "● De amplio espectro, asegurando la sanidad de los elementos del equipo",
+                desc2: "● De amplio espectro, asegura la sanidad de los elementos del equipo",
                 desc3: "● Rápida acción germicida",
                 desc4: "● Baja Dosificación",                  
             },
