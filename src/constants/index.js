@@ -67,30 +67,54 @@ export const socialMedia = [
     { src: youtube, alt: "youtube", href: "https://www.youtube.com" },
 ]
 
-export const swiperMachines = [
-    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner5.jpg", id:"1"},
-    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-1.jpg", id:"2"},
-    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-2.jpg", id:"3"},
-    {label:"VER EQUIPOS DE ORDEÑO", to:"/machines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-3.jpg", id:"4"},
-]
-
-export const swiperEngines = [
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner3.jpg", id:1},
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-1.jpg", id:3},
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-3.jpg", id:4},
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg", id:2},
-]
-
-export const swiperAccs = [
-    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner2.jpg", id:"a"},
-    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-1.jpg", id:"b"},
-    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-2.jpg", id:"c"},
-    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-3.jpg", id:"d"},
+export const swiperInventory = [
+    {
+        label:"VER EQUIPOS DE ORDEÑO",
+        to:"/machines", 
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-1.jpg",
+        aspect: '70% 30%',
+        id:"2"
+    },
+    {
+        label:"VER SALAS DE ORDEÑO",
+        to:"/machines",
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-2.jpg",
+        aspect: '65% 35%',
+        id:"3"
+    },
+    {
+        label:"VER MOTORES",
+        to:"/engines",
+        aspect: '65% 35%',
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-1.jpg",
+        id:3
+    },
+    {
+        label:"VER BOMBAS DE VACÍO",
+        to:"/pumps",
+        aspect: '65% 35%',
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg",
+        id:2
+    },
+    {
+        label:"VER REPUESTOS & ACCS",
+        to:"/products",
+        aspect: '35% 65%',
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-2.jpg",
+        id:"c"
+    },
+    {
+        label:"VER INSUMOS DE LAVADO",
+        to:"/supplies",
+        aspect: '75% 25%',
+        src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-3.jpg",
+        id:"d"
+    },
 ]
 
 export const swiperSales = [
-    {src:car, id:1},
-    {src:car, id:2},
+    {src:banner, id:1},
+    {src:banner, id:2},
 ]
 
 export const portableMachines = [
