@@ -100,7 +100,7 @@ const SwiperInventory = () => {
                                     <button className='bg-mainBlue rounded-sm px-3 py-2 font-bold text-sm md:text-md' onClick={() => navigate(item.to)}>
                                         {item.label}
                                     </button>
-                                    <button className='bg-mainBlue rounded-sm px-3 py-2 font-bold text-sm md:text-md' onClick={() => navigate(item.to)}>
+                                    <button className='bg-mainBlue rounded-sm px-3 py-2 font-bold text-sm md:text-md' onClick={() => navigate(item.to2)}>
                                         {item.label2}
                                     </button>
                                 </div>
