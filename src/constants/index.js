@@ -1,5 +1,6 @@
 import { facebook, instagram, tiktok, youtube } from '../assets/icons'
 import { car, banner } from '../assets/images'
+
 export const navLinks = [
     { to:"/", label: "INICIO" },
     { to:"/machines", label: "EQUIPOS" },
@@ -75,10 +76,21 @@ export const swiperMachines = [
 
 export const swiperEngines = [
     {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner3.jpg", id:1},
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg", id:2},
     {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-1.jpg", id:3},
     {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-3.jpg", id:4},
-    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-4.jpg", id:5},
+    {label:"VER MOTORES", label2:"VER BOMBAS DE VACÍO", to:"/engines", to2:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg", id:2},
+]
+
+export const swiperAccs = [
+    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner2.jpg", id:"a"},
+    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-1.jpg", id:"b"},
+    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-2.jpg", id:"c"},
+    {label:"VER REPUESTOS", label2:"VER INSUMOS DE ASEO", to:"/products", to2:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-3.jpg", id:"d"},
+]
+
+export const swiperSales = [
+    {src:car, id:1},
+    {src:car, id:2},
 ]
 
 export const portableMachines = [

@@ -1,5 +1,4 @@
 import { supplies } from '../constants'
-import { banner2 } from '../assets/images'
 
 const Supplies = () => {
     return (
@@ -9,7 +8,7 @@ const Supplies = () => {
             </h1>
             <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg mb-4'></div>
             <div className="banner-image h-[300px] md:h-[400px] xl:h-[500px]"
-                style={{ backgroundImage: `url(${banner2})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                style={{ backgroundImage: `url(https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-3.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             ></div>
             {supplies.map((section) => (
                 <div key={section.category} className='text-center'>
