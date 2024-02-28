@@ -10,7 +10,7 @@ const SwiperSales = () => {
 
     return (
         <>
-            <div className='shadow-2xl'>
+            <div className=''>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}

@@ -13,7 +13,7 @@ const SwiperInventory = () => {
 
     return (
         <>
-            <div className='shadow-2xl mb-14'>
+            <div className=' mb-14'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}

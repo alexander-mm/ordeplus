@@ -43,7 +43,7 @@ const Machines = () => {
                                 </div>
                             </div>
                             <div className='w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
-                                <h1 className='font-medium text-lg lg:text-xl'>{item.name}</h1>
+                                <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Machines = () => {
                                 </div>
                             </div>
                             <div className='w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
-                                <h1 className='font-medium text-lg lg:text-xl'>{item.name}</h1>
+                                <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
                             </div>
                         </div>
                     </div>

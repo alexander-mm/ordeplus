@@ -43,7 +43,7 @@ const Supplies = () => {
                                         </div>
                                     </div>
                                     <div className='w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
-                                        <h1 className='font-medium text-md lg:text-xl'>{item.name}</h1>
+                                        <h1 className='font-bold text-md lg:text-xl'>{item.name}</h1>
                                     </div>
                                 </div>
                             </div>

@@ -284,25 +284,25 @@ export const products = [
         category: "PULSADORES",
         items: [
             { 
-                name: "L-80 Air InterPuls",
+                name: "L - 80 AIR",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/l80-inter.png",
                 brand: "● MARCA: InterPuls",
                 desc: "● FABRICADO EN: Plástico reforzado",
             },
             {
-                name: "L-80 Inox",
+                name: "L - 80 INOX",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/inter-acero.png",
                 brand: "● MARCA: +THRUST",
                 desc: "● FABRICADO EN: Plástico reforzado y acero inoxidable",
             },
             { 
-                name: "L-80",
+                name: "L - 80",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/puls1.png",
                 brand: "● MARCA: +THRUST",
                 desc: "● FABRICADO EN: Plástico reforzado",
             },
             { 
-                name: "FLACO JD-91",
+                name: "FLACO JD - 91",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/puls-flaco.png",
                 brand: "● MARCA: FLACO",
                 desc: "● FABRICADO EN: Plástico reforzado y acero inoxidable",

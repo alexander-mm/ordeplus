@@ -146,7 +146,7 @@ const Contact = () => {
                     type="submit"
                     className="bg-grayBack border hover:bg-green-600 w-full p-3 text-mainBlue font-sans mt-8 uppercase font-bold cursor-pointer" value='ENVIAR SOLICITUD' />
             </form>
-            <div className='mt-16'>
+            <div>
                 <SwiperFooter />
             </div>
         </section>
