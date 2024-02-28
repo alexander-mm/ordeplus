@@ -1,12 +1,14 @@
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 import { logo } from '../assets/images'
-import FloatingButton from './FloatingButton'
+import FloatingButtonCO from './FloatingButtonCO'
+import FloatingButtonEC from './FloatingButtonEC'
 import { socialMedia } from '../constants'
 
-const Footer = () => {
+const Footer = ({ contactLinksOption }) => {
     return (
         <footer className='bg-mainBlue w-full border-white border-t-[0.1px] border-opacity-40 z-[1000] px-4 font-avenir'>
-            <FloatingButton />
+            {contactLinksOption === 1 ? <FloatingButtonCO /> : <FloatingButtonEC />}
             <div className='flex justify-center md:justify-around flex-col xs2:flex-row xs2:gap-x-4  items-center xs:items-end xs2:items-center pt-4 pb-2'>
                 <div className='flex flex-col'>
                     <h6 className='text-white'>Síguenos en Nuestras Redes!</h6>
@@ -26,5 +28,9 @@ const Footer = () => {
         </footer>
     )
 }
+
+Footer.propTypes = {
+    contactLinksOption: PropTypes.number,
+};
 
 export default Footer
