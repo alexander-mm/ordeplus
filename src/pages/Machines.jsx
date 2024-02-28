@@ -26,7 +26,7 @@ const Machines = () => {
                 style={{ backgroundImage: `url(${banner5})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
             </div>
-            <h1 className="text-white text-center font-avenir text-[24px] lg:text-[30px] mt-3">
+            <h1 className="text-white text-center font-avenir text-[28px] lg:text-[30px] mt-3">
                 EQUIPOS PORTÁTILES
             </h1>
             <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg'></div>
@@ -49,7 +49,7 @@ const Machines = () => {
                     </div>
                 ))}
             </div>
-            <h1 className="text-white text-center font-avenir text-[24px] lg:text-[30px] mt-4">
+            <h1 className="text-white text-center font-avenir text-[28px] lg:text-[30px] mt-4">
                 EQUIPOS TIPO SALA
             </h1>
             <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg mb-4'></div>

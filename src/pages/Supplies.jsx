@@ -25,7 +25,7 @@ const Supplies = () => {
             ></div>
             {supplies.map((section) => (
                 <div key={section.category} className='text-center'>
-                    <h1 className="text-white text-center font-avenir text-[24px] lg:text-[30px] mt-3">{section.category}</h1>
+                    <h1 className="text-white text-center font-avenir text-[28px] lg:text-[30px] mt-3">{section.category}</h1>
                     <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg'></div>
                     <div className="grid grid-cols-1 md:flex flex-wrap justify-center gap-x-32 gap-y-12 py-4 mt-5 mx-auto lg:max-w-screen-2xl">
                         {section.items.map((item) => (

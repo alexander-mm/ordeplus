@@ -14,7 +14,7 @@ const SwiperFooter = () => {
 
     return (
         <>
-            <div className='mt-32'>
+            <div className=' mt-28'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}

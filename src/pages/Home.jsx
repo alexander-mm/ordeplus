@@ -26,7 +26,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <h1 className="text-white text-center font-avenir text-[29px] lg:text-[40px] pt-1">
+                    <h1 className="text-white text-center font-avenir text-[28px] lg:text-[40px] pt-1">
                         PROYECTOS INSTALADOS
                     </h1>
                     <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg mb-4'></div>
