@@ -22,7 +22,7 @@ const Footer = () => {
                     <img src={logo} alt="Logo" width={200} />
                 </Link>
             </div>
-            <h1 className='text-white text-center text-xs font-avenir font-thin pb-4'>Todos los Derechos Reservados © 2024 - ORDEPLUS™ - Una División de Plus Group</h1>
+            <h1 className='text-white text-center text-xs font-avenir font-thin py-4'>Todos los Derechos Reservados © 2024 - ORDEPLUS™ - Una División de Plus Group</h1>
         </footer>
     )
 }

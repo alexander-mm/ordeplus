@@ -14,17 +14,11 @@ const SwiperInventory = () => {
     return (
         <>
             <div className='shadow-2xl mb-14'>
-                <div className='text-center pt-8 font-avenir text-[20px] lg:text-[22px]'>
-                    <div className=' text-white mx-[10%] md:mx-[20%] py-2 rounded-md'>
-                        <h1>Tenemos inventario de Motores, Bombas,</h1>
-                        <h1> Repuestos, Accesorios y Equipos Completos</h1>
-                        <h1 className="font-bold">VISITA YA, NUESTRAS SECCIONES</h1>
-                    </div>
-                </div>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{ delay: 3000, disableOnInteraction: false, }}
+                    loop={true}
                     pagination={{ clickable: true, }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}

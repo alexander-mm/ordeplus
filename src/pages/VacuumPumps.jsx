@@ -1,7 +1,20 @@
+import { useEffect } from 'react';
 import { banner4 } from '../assets/images'
 import { pumps } from '../constants'
+import SwiperFooter from '../components/SwiperFooter';
 
 const VacuumPumps = () => {
+
+    useEffect(() => {
+        const smoothScrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+        smoothScrollToTop();
+    }, []);
+
     return (
         <section className="mt-[4em] mb-12 bg-mainBlue">
             <h1 className="text-white text-center font-avenir text-[30px] lg:text-[40px] pt-1">
@@ -45,6 +58,9 @@ const VacuumPumps = () => {
                     </div>
                 </div>
             ))}
+            <div>
+                <SwiperFooter />
+            </div>
         </section>
     )
 }

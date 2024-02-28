@@ -1,8 +1,19 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Error from '../components/Error'
+import SwiperFooter from '../components/SwiperFooter';
 
 const Contact = () => {
+
+    useEffect(() => {
+        const smoothScrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+        smoothScrollToTop();
+    }, []);
 
     const [nombres, setNombres] = useState("")
     const [apellidos, setApellidos] = useState("")
@@ -135,6 +146,9 @@ const Contact = () => {
                     type="submit"
                     className="bg-grayBack border hover:bg-green-600 w-full p-3 text-mainBlue font-sans mt-8 uppercase font-bold cursor-pointer" value='ENVIAR SOLICITUD' />
             </form>
+            <div className='mt-16'>
+                <SwiperFooter />
+            </div>
         </section>
     )
 }

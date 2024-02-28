@@ -14,7 +14,8 @@ export const navLinks = [
     { to: "supplies", label: "INSUMOS" },
     { to: "/supplies", title: "Detergentes" },
     { to: "/supplies", title: "Aceites" },
-    { to: "/supplies", title: "Sellantes" }
+    { to: "/supplies", title: "Sellantes" },
+    { to: "/contact", label: "CONTACTO" },
 ]
 
 export const listPortableMachines = [
@@ -72,49 +73,57 @@ export const swiperInventory = [
         label:"VER EQUIPOS DE ORDEÑO",
         to:"/machines", 
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-1.jpg",
-        aspect: '70% 30%',
-        id:"2"
+        aspect: '65% 50%',
+        id:"a"
     },
     {
         label:"VER SALAS DE ORDEÑO",
         to:"/machines",
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-mach-2.jpg",
         aspect: '65% 35%',
-        id:"3"
+        id:"b"
     },
     {
         label:"VER MOTORES",
         to:"/engines",
         aspect: '65% 35%',
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-eng-1.jpg",
-        id:3
+        id:"c"
     },
     {
         label:"VER BOMBAS DE VACÍO",
         to:"/pumps",
         aspect: '65% 35%',
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner4.jpg",
-        id:2
+        id:"d"
     },
     {
         label:"VER REPUESTOS & ACCS",
         to:"/products",
         aspect: '35% 65%',
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-2.jpg",
-        id:"c"
+        id:"e"
     },
     {
         label:"VER INSUMOS DE LAVADO",
         to:"/supplies",
         aspect: '75% 25%',
         src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/banner-accs-3.jpg",
-        id:"d"
+        id:"f"
     },
 ]
 
 export const swiperSales = [
-    {src:banner, id:1},
-    {src:banner, id:2},
+    {src:banner, id:1, aspect:'50% 50%'},
+    {src:banner, id:2, aspect:'50% 50%'},
+]
+
+export const swiperFooter = [
+    {label:"EQUIPOS DE ORDEÑO", to:"/machines", src:car, id:0},
+    {label:"MOTORES A GASOLINA Y ELÉCTRICOS", to:"/engines", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/slong.png", id:1},
+    {label:"BOMBAS DE VACÍO", to:"/pumps", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/bvt-1.png", id:2},
+    {label:"REPUESTOS & ACCESORIOS", to:"/products", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/collecto-1.png", id:3},
+    {label:"INSUMOS DE LAVADO & ACEITES", to:"/supplies", src:"https://www.masqueunefecto.com/wp-content/uploads/2024/02/pump-oil.png", id:4},
 ]
 
 export const portableMachines = [

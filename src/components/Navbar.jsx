@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { logo } from '../assets/images'
 import { hamburger } from '../assets/icons'
@@ -9,6 +9,15 @@ import '../css/userCss.css';
 
 const Navbar = () => {
 
+    useEffect(() => {
+        const smoothScrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+        smoothScrollToTop();
+    }, []);
     const [menuMachines, setMenuMachines] = useState(false);
     const [menuEngines, setMenuEngines] = useState(false);
     const [menuPumps, setMenuPumps] = useState(false);

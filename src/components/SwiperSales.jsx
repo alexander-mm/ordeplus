@@ -10,11 +10,12 @@ const SwiperSales = () => {
 
     return (
         <>
-            <div className='shadow-2xl w-[20em] xs2:w-[30em] sm:w-[40em] md:w-[50em] lg:w-[60em]'>
+            <div className='shadow-2xl'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{ delay: 2000, disableOnInteraction: false, }}
+                    loop={true}
                     pagination={{ clickable: true, }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
@@ -22,7 +23,8 @@ const SwiperSales = () => {
                 >
                     {swiperSales.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <img src={item.src} alt="" />
+                            <div className='h-[300px] md:h-[400px] xl:h-[500px] flex justify-center items-end' style={{ backgroundImage: `url(${item.src})`, backgroundSize: 'cover', backgroundPosition: item.aspect }}>
+                            </div>
                         </SwiperSlide>
                     ))}
                 </Swiper>

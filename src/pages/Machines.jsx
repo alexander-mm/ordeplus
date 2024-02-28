@@ -1,7 +1,20 @@
+import { useEffect } from 'react';
 import { portableMachines, roomMachines } from '../constants'
 import { banner5 } from '../assets/images'
+import SwiperFooter from '../components/SwiperFooter';
 
 const Machines = () => {
+
+    useEffect(() => {
+        const smoothScrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+        smoothScrollToTop();
+    }, []);
+
     return (
         <section className="mt-[4em] bg-mainBlue">
             <h1 className="text-white text-center font-avenir text-[30px] lg:text-[40px] pt-1">
@@ -58,6 +71,9 @@ const Machines = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div>
+                <SwiperFooter />
             </div>
         </section>
     )

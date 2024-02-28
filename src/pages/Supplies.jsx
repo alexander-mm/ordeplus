@@ -1,6 +1,19 @@
+import { useEffect } from 'react';
 import { supplies } from '../constants'
+import SwiperFooter from '../components/SwiperFooter';
 
 const Supplies = () => {
+
+    useEffect(() => {
+        const smoothScrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+        smoothScrollToTop();
+    }, []);
+
     return (
         <section className="mt-[4em] bg-mainBlue mb-12">
             <h1 className="text-white text-center font-avenir text-[30px] lg:text-[40px] pt-1">
@@ -38,6 +51,9 @@ const Supplies = () => {
                     </div>
                 </div>
             ))}
+            <div>
+                <SwiperFooter />
+            </div>
         </section>
     )
 }
