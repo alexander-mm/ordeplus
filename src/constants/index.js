@@ -164,6 +164,15 @@ export const engines = [
                 tank:"● CAP. MAX. COMBUSTIBLE: 3.6L",
             },
             { 
+                name: "+THRUST",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/03/trhust.png",
+                brand: "●  MARCA: +THRUST",
+                model: "● MODELO: PTG-I60X",
+                type: "● TIPO: 4 TIEMPOS",
+                power:"● POTENCIA MAX: 6.5hp/3600rpm",
+                tank:"● CAP. MAX. COMBUSTIBLE: 3.6L",
+            },
+            { 
                 name: "KOHLER",
                 src: "https://www.masqueunefecto.com/wp-content/uploads/2024/02/kohler.png",
                 brand: "●  MARCA: KOHLER",
