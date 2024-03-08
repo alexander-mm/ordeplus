@@ -8,6 +8,7 @@ import youtube from '../icons/youtube.svg'
 import colombia from '../icons/colombia.svg'
 import ecuador from '../icons/ecuador.svg'
 import arrowRoute from '../icons/arrow_grey.png'
+import buycart from '../icons/buy-cart.svg'
 
 export {
     hamburger,
@@ -20,4 +21,5 @@ export {
     arrowRoute,
     colombia,
     ecuador,
+    buycart,
 }

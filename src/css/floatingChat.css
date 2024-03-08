@@ -1,9 +1,9 @@
-.floating-button {
+.floating-chat {
     position: fixed;
-    background: url('../assets/icons/whatsapp-floating.svg') no-repeat center center;
+    background: url('../assets/icons/send.svg') no-repeat center center;
     background-size: cover;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;

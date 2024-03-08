@@ -1,5 +1,5 @@
 import { facebook, instagram, tiktok, youtube } from '../assets/icons'
-import { car, banner } from '../assets/images'
+import { car } from '../assets/images'
 
 export const navLinks = [
     { to:"/", label: "INICIO" },
@@ -114,8 +114,12 @@ export const swiperInventory = [
 ]
 
 export const swiperSales = [
-    {src:banner, id:1, aspect:'50% 50%'},
-    {src:banner, id:2, aspect:'50% 50%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI1.jpg", id:2, aspect:'50% 60%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI2.jpg", id:1, aspect:'50% 16%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI6.jpg", id:3, aspect:'50% 40%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI4.jpg", id:4, aspect:'50% 30%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI5.jpg", id:5, aspect:'50% 50%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI7.jpg", id:6, aspect:'50% 20%'},
 ]
 
 export const swiperFooter = [
@@ -134,10 +138,7 @@ export const portableMachines = [
 ]
 
 export const roomMachines = [
-    { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"1", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: banner },
-    { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"2", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: banner },
-    { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"3", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: banner },
-    { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"4", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: banner },
+    { name: "ORDESALA DE 2 PUESTOS", key:"1", desc1: "• Motor a Gasolina", desc2:"• Motor Eléctrico", desc3: "• 2 unidades de ordeño", src: "https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI3.jpg" },
 ]
 
 export const engines = [

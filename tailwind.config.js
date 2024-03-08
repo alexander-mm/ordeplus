@@ -14,6 +14,7 @@ export default {
         'mainBlue': "#0070B8",
         'grayBack': "#EEEFF0",
         'grayFont': "#797978",
+        "chat": "#EFE8DE"
       },
       screens: {
         "xs": "280px",

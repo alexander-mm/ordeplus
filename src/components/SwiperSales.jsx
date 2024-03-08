@@ -14,7 +14,7 @@ const SwiperSales = () => {
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
-                    autoplay={{ delay: 2000, disableOnInteraction: false, }}
+                    autoplay={{ delay: 2000, disableOnInteraction: true, }}
                     loop={true}
                     pagination={{ clickable: true, }}
                     navigation={true}
@@ -23,7 +23,7 @@ const SwiperSales = () => {
                 >
                     {swiperSales.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <div className='h-[300px] md:h-[400px] xl:h-[500px] flex justify-center items-end' style={{ backgroundImage: `url(${item.src})`, backgroundSize: 'cover', backgroundPosition: item.aspect }}>
+                            <div className='h-[300px] md:h-[400px] xl:h-[600px] flex justify-center items-end' style={{ backgroundImage: `url(${item.src})`, backgroundSize: 'cover', backgroundPosition: item.aspect }}>
                             </div>
                         </SwiperSlide>
                     ))}
