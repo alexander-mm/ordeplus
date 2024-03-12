@@ -1,0 +1,179 @@
+ [
+            { 
+                "name": "REGULADOR +THRUST",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/regulator-vacuum2.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● CAPACIDAD: 300L/min",
+                "desc2": "● Preciso",
+                "desc3": "● Funcionamiento con membrana"
+            },
+            { 
+                "name": "REGULADOR INTERPULS",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/stabilvac.png",
+                "brand": "● MARCA: InterPuls",
+                "desc": "● CAPACIDAD: 1400L/min",
+                "desc2": "● SERIE: ESTABILVAC",
+                "desc3": "● Preciso"
+            },
+            { 
+                "name": "REGULADOR SERVO-REGULADOR",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/servoregulator.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● CAPACIDAD: 3500L/min",
+                "desc2": "● Incorpora pre-filtro de aire",
+                "desc3": "● Diseñado para ordeños tipo sala"
+            },
+            { 
+                "name": "PULSADOR L - 80 AIR",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/l80-inter.png",
+                "brand": "● MARCA: InterPuls",
+                "desc": "● FABRICADO EN: Plástico reforzado"
+            },
+            {
+                "name": "PULSADOR L - 80 INOX",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/inter-acero.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Plástico reforzado y acero inoxidable"
+            },
+            { 
+                "name": "PULSADOR L - 80",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/puls1.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Plástico reforzado"
+            },
+            { 
+                "name": "PULSADOR FLACO JD - 91",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/puls-flaco.png",
+                "brand": "● MARCA: FLACO",
+                "desc": "● FABRICADO EN: Plástico reforzado y acero inoxidable"
+            },
+            {
+                "name": "VACUÓMENTRO SECO",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/manometro.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● Preciso",
+                "desc2": "● Caucho protector contra golpes"
+            },
+            { 
+                "name": "VACUÓMENTRO EN GLICERINA",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/vacuometro.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● Preciso",
+                "desc2": "● La glicerina en su interior permite una lectura clara"
+            },
+            { 
+                "name": "COLECTOR CLASSIC",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/collecto-1.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Polisulfona y acero inoxidable",
+                "desc2": "● CAPACIDAD: 300cc"
+            },
+            { 
+                "name": "COLECTOR ORBITER",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/colector-1.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Policarbonato y plástico",
+                "desc2": "● CAPACIDAD: 240cc"
+            },
+            { 
+                "name": "COLECTOR 3400",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/3400.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Policarbonato y plástico",
+                "desc2": "● CAPACIDAD: 200cc"
+            },
+            { 
+                "name": "PEZONERA ESTANDAR - DL016U", 
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/cauchos.png",
+                "brand": "● MARCA: MILK-RITE",
+                "desc": "● PARA CASQUILLO: 140 - 20 - 44",
+                "desc2": "● FABRICADA EN: Caucho",
+                "desc3": "● La pezonera más utilizada en equipos a nivel nacional"
+            },
+            { 
+                "name": "PEZONERA TRIANGULAR - IMPULSE-IP15",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/cauchos-triangulares.png",
+                "brand": "● MARCA: MILK-RITE",
+                "desc": "● FABRICADA EN: Caucho",
+                "desc2": "● Diseñada para la prevención y control de MASTITIS",
+                "desc3": "● Disponible en versión ventilada y NO ventilada"
+            },
+            {
+                "name": "CASQUILLOS ESTANDAR - DL016U",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/casquillos.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● FABRICADO EN: Acero inoxidable",
+                "desc2": "● PARA PEZONERAS: Estándar Circulares",
+                "desc3": "● MEDIDAS: 140 - 20 - 44"
+            },
+            { 
+                "name": "CASQUILLOS TRIANGULARES",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/casquillo-triangular.png",
+                "brand": "● MARCA: MILK-RITE",
+                "desc": "● FABRICADO EN: Plástico doble pared",
+                "desc2": "● PARA PEZONERAS: Triangulares",
+                "desc3": "● DIÁMETRO: 24mm"
+            },
+            { 
+                "name": "ACEITERAS POR GOTEO",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/aceitera.png",
+                "brand": "● MARCA: EUROLATTE",
+                "desc": "● Suministro de lubricación por goteo",
+                "desc2": "● Las mirillas permiten graduar la cantidad de gotas de aceite lubricante",
+                "desc3": "dependiendo del requerimiento para cada modelo de bomba de vacío."
+            },
+            { 
+                "name": "ACEITERAS POR CAPILARIDAD",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/lubrificador.png",
+                "brand": "● MARCA: TRIUNFO",
+                "desc": "● Suministro de lubricación continuo",
+                "desc2": "● Permite graduar la cantidad de aceite lubricante",
+                "desc3": "dependiendo del requerimiento para cada modelo de bomba de vacío."
+            },
+            {
+                "name": "ACEITERAS POR GRAVEDAD",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/succion.png",
+                "brand": "● MARCA: ILGÜN",
+                "desc": "● Suministro por gravedad",
+                "desc2": "● Permite graduar la cantidad de aceite lubricante",
+                "desc3": "dependiendo del requerimiento para cada modelo de bomba de vacío."
+            },
+            { 
+                "name": "MEDIDOR PROPORCIONAL",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/medidor.png",
+                "brand": "● MARCA: WAIKATO",
+                "desc": "● FABRICADO EN: Polisulfona",
+                "desc2": "● Medición precisa para cada animal",
+                "desc3": "● Resistente al calor",
+                "desc4": "● Resistente a la corrosión"
+            },
+            { 
+                "name": "MANGUERA PVC 9/16 - AIRE-LECHE",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/milk-hose.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● GRADO ALIMENTICIO",
+                "desc2": "● Resistente a los ácidos de la leche",
+                "desc3": "● Libre de ftalatos",
+                "desc4": "● Su transparencia permite visualizar el flujo de leche"
+            },
+            { 
+                "name": "MANGUERA DOBLE PVC 5/16 - VACÍO",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/vacuum-hose-2.png",
+                "brand": "● MARCA: +THRUST",
+                "desc": "● GRADO ALIMENTICIO",
+                "desc2": "● Resistente a las condiciones de vacío requerido ",
+                "desc3": "por los pulsadores del sistema de ordeño."
+            },
+            { 
+                "name": "LINEA CORTA DE VACÍO",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/cauchos-colector.png",
+                "desc": "● FABRICADO EN: Caucho",
+                "desc2": "● Para cualquier tipo de Colector",
+                "desc3": "● PAQUETE x4"
+            },
+            { 
+                "name": "OTROS REPUESTOS",
+                "src": "https://www.masqueunefecto.com/wp-content/uploads/2024/02/orings.png",
+                "desc": "Consulte con su asesor por la referencia de su requerimiento"
+            }
+        ]

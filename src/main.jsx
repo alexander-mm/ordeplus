@@ -10,6 +10,7 @@ import VacuumPumps from './pages/VacuumPumps';
 import Products from './pages/Products'
 import Supplies from './pages/Supplies'
 import Contact from './pages/Contact'
+import StorePerPage from './pages/StorePerPage';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/pagination',
+        element: <StorePerPage />
       },
     ],
   },
