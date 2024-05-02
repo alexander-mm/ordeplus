@@ -8,10 +8,12 @@ import youtube from '../icons/youtube.svg'
 import colombia from '../icons/colombia.svg'
 import ecuador from '../icons/ecuador.svg'
 import arrowRoute from '../icons/arrow_grey.png'
+import download from '../icons/download.png'
 import buycart from '../icons/buy-cart.svg'
 
 export {
     hamburger,
+    download,
     close,
     arrow,
     facebook,

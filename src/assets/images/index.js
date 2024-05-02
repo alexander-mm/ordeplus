@@ -1,5 +1,7 @@
 import logo from './logo.png'
 import car from './car.png'
+import car2 from './car2.png'
+import car3 from './car3.png'
 import banner2 from './banner2.jpg'
 import banner3 from './banner3.jpg'
 import banner4 from './banner4.jpg'
@@ -8,6 +10,8 @@ import banner5 from './banner5.jpg'
 export {
     logo,
     car,
+    car2,
+    car3,
     banner2,
     banner3,
     banner4,

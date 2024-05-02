@@ -1,6 +1,8 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { portableMachines, roomMachines } from '../constants'
 import { banner5 } from '../assets/images'
+import { download } from '../assets/icons'
+import '../css/userCss.css';
 import SwiperFooter from '../components/SwiperFooter';
 
 const Machines = () => {
@@ -15,8 +17,18 @@ const Machines = () => {
         smoothScrollToTop();
     }, []);
 
+    const [downloadMenuIndex, setDownloadMenuIndex] = useState(null);
+
+    const toggleDownloadMenu = (index) => {
+        if (downloadMenuIndex === index) {
+            setDownloadMenuIndex(null); // Si el menú ya está abierto, ciérralo
+        } else {
+            setDownloadMenuIndex(index); // Si no, abre el menú en el índice del artículo
+        }
+    };
+
     return (
-        <section className="mt-[4em] bg-mainBlue">
+        <section className="mt-[4em] bg-mainBlue no-select">
             <h1 className="text-white text-center font-avenir text-[30px] lg:text-[40px] pt-1">
                 EQUIPOS DE ORDEÑO
             </h1>
@@ -31,7 +43,7 @@ const Machines = () => {
             </h1>
             <div className='border-white border-t-[0.1px] border-opacity-40 mx-auto lg:max-w-screen-lg'></div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-xl:grid-cols-1 mx-auto lg:max-w-screen-2xl">
-                {portableMachines.map((item) => (
+                {portableMachines.map((item, index) => (
                     <div key={item.key} className="col-span-1 lg:col-span-2 mb-4">
                         <div className="flex justify-center items-center flex-col text-center font-avenir text-white shadow-lg">
                             <div className='w-full flex flex-col md:flex-row justify-around items-center'>
@@ -42,9 +54,24 @@ const Machines = () => {
                                     <p className='mx-2'>{item.desc3}</p>
                                 </div>
                             </div>
-                            <div className='w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
-                                <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
+                            <div className='flex flex-row justify-around items-center w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
+                            <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
+                            <div className='flex flex-col'>
+                                <div className='flex flex-row gap-x-2 justify-center items-center text-xs border p-2 cursor-pointer' onClick={() => toggleDownloadMenu(index)}>
+                                    <img className='w-6' src={download} alt="" />
+                                    <h2>DESCARGAR FICHA TÉCNICA</h2>
+                                </div>
+                                {downloadMenuIndex === index && (
+                                    <div className='flex flex-col gap-y-2 mt-1 bg-mainBlue p-4 xs2:ml-10'>
+                                        <a className='border-b' href={item.downloadLink1} download>{item.model} - 1 Puesto / 1 Cantina Inox. 30L</a>
+                                        <a className='border-b' href={item.downloadLink2} download>{item.model} - 2 Puestos / 2 Cantinas Inox. 30L </a>
+                                        <a className='border-b' href={item.downloadLink3} download>{item.model} - 1 Puesto / 1 Cantina Alum. 40L </a>
+                                        <a className='border-b' href={item.downloadLink4} download>{item.model} - 2 Puestos / 1 Cantina Alum. 40L </a>
+                                        <a className='border-b' href={item.downloadLink5} download>{item.model} - 2 Puestos / 2 Cantinas Alum. 40L </a>
+                                    </div>
+                                )}
                             </div>
+                        </div>
                         </div>
                     </div>
                 ))}

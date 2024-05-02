@@ -1,5 +1,5 @@
 import { facebook, instagram, tiktok, youtube } from '../assets/icons'
-import { car } from '../assets/images'
+import { car, car3 } from '../assets/images'
 
 export const navLinks = [
     { to:"/", label: "INICIO" },
@@ -139,10 +139,33 @@ export const swiperFooter = [
 ]
 
 export const portableMachines = [
-    { name: "BUGGY SENCILLO DE 1 - 4 PUESTOS", key:"1", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: car },
-    { name: "BUGGY DOBLE DE 1 - 4 PUESTOS", key:"2", desc1: "• Motor a Gasolina", desc2: "• Motor Eléctrico", desc3: "• De 1 - 4 unidades de ordeño", src: car },
-    { name: "MONORRUEDA SENCILLO DE 1 - 4 PUESTOS", key:"3", desc1: "• Motor a Gasolina", desc3: "• De 1 a 4 unidades de ordeño", src: car },
-    { name: "MONORRUEDA DOBLE DE 1 - 4 PUESTOS", key:"4", desc1: "• Motor a Gasolina", desc2: "• Motor Eléctrico", desc3: "• De 1 - 4 unidades de ordeño", src: car },
+    { 
+        name: "ORDEMÓVIL M1 TIPO BUGGY DE 1 - 4 PUESTOS",
+        desc1: "• Motor a Gasolina",
+        desc3: "• De 1 a 4 unidades de ordeño",
+        model: "M1",
+        downloadLink1:"https://drive.google.com/uc?id=1PvLSM0apHUrayphvZmGmVGgKmIMPAD2m&export=download",
+        downloadLink2:"https://drive.google.com/uc?id=1rBtfJUoQ5Lvqp0WnZIjHTHlxEPCau9Cl&export=download",
+        downloadLink3:"https://drive.google.com/uc?id=1lzZEtOKCpTofUHO8RT4a3yPc4KHTQlGj&export=download",
+        downloadLink4:"https://drive.google.com/uc?id=1vdRxhIDmAWBDESTlp9znFomNCePYXciP&export=download",
+        downloadLink5:"https://drive.google.com/uc?id=189zACtW079hiLWCcEoEM7aP5NfAMBpFk&export=download",
+        src: car,
+        key:"1",
+    },
+    { 
+        name: "ORDEMÓVIL M2 TIPO BUGGY DE 1 - 4 PUESTOS",
+        desc1: "• Motor a Gasolina",
+        desc2: "• Motor Eléctrico",
+        desc3: "• De 1 - 4 unidades de ordeño",
+        model:"M2",
+        downloadLink1:"https://drive.google.com/uc?id=18ccfFUt1BTqDgWNrHKH7p6z4JeEpLY2K&export=download",
+        downloadLink2:"https://drive.google.com/uc?id=1X5JtY_aj9f3ivEdSybAe7PLbdv-LTI0H&export=download",
+        downloadLink3:"https://drive.google.com/uc?id=1fHlErQHERU_V6TwUeghkpE5RGhbQyHFR&export=download",
+        downloadLink4:"https://drive.google.com/uc?id=1ABCX_e1_QJP-XDXh6CMxH1VHs4QjgoQ0&export=download",
+        downloadLink5:"https://drive.google.com/uc?id=1bhghSlzAySPCKBXy6MhB1MRuARW-gMmE&export=download",
+        src: car3,
+        key:"2",
+    },
 ]
 
 export const roomMachines = [
