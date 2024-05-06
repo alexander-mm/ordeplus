@@ -184,7 +184,7 @@ const Navbar = () => {
                     </Link>
                     {listPortableMachines.map((item) => (
                         <li key={item.label}>
-                            <Link onClick={() => setMenuMachines((prev) => !prev)} className="text-white font-avenir text-lg mx-10">
+                            <Link to={item.to} onClick={() => setMenuMachines((prev) => !prev)} className="text-white font-avenir text-lg mx-10">
                                 {item.label}
                             </Link>
                         </li>

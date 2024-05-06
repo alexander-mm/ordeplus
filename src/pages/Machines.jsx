@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import { portableMachines, roomMachines } from '../constants'
 import { banner5 } from '../assets/images'
 import { download } from '../assets/icons'
-import '../css/userCss.css';
 import SwiperFooter from '../components/SwiperFooter';
+import '../css/userCss.css';
 
 const Machines = () => {
 
@@ -21,9 +22,9 @@ const Machines = () => {
 
     const toggleDownloadMenu = (index) => {
         if (downloadMenuIndex === index) {
-            setDownloadMenuIndex(null); // Si el menú ya está abierto, ciérralo
+            setDownloadMenuIndex(null);
         } else {
-            setDownloadMenuIndex(index); // Si no, abre el menú en el índice del artículo
+            setDownloadMenuIndex(index);
         }
     };
 
@@ -47,31 +48,35 @@ const Machines = () => {
                     <div key={item.key} className="col-span-1 lg:col-span-2 mb-4">
                         <div className="flex justify-center items-center flex-col text-center font-avenir text-white shadow-lg">
                             <div className='w-full flex flex-col md:flex-row justify-around items-center'>
-                                <img className='max-md:w-50 w-80 m-3' src={item.src} alt="" />
-                                <div className='text-md py-4'>
+                                <img className='max-md:w-50 w-80 md:m-3' src={item.src} alt="" />
+                                <div className='text-start text-md py-4'>
                                     <p className='mx-2'>{item.desc1}</p>
                                     <p className='mx-2'>{item.desc2}</p>
                                     <p className='mx-2'>{item.desc3}</p>
+                                    <Link to={item.to} className='flex flex-row gap-x-2 justify-center items-center text-xs border py-2 cursor-pointer mt-4'>
+                                        <h2>VER MAS OPCIONES {item.model}</h2>
+                                    </Link>
                                 </div>
                             </div>
-                            <div className='flex flex-row justify-around items-center w-full py-2 border-white border-t-[0.1px] border-opacity-40'>
-                            <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
-                            <div className='flex flex-col'>
-                                <div className='flex flex-row gap-x-2 justify-center items-center text-xs border p-2 cursor-pointer' onClick={() => toggleDownloadMenu(index)}>
-                                    <img className='w-6' src={download} alt="" />
-                                    <h2>DESCARGAR FICHA TÉCNICA</h2>
-                                </div>
-                                {downloadMenuIndex === index && (
-                                    <div className='flex flex-col gap-y-2 mt-1 bg-mainBlue p-4 xs2:ml-10'>
-                                        <a className='border-b' href={item.downloadLink1} download>{item.model} - 1 Puesto / 1 Cantina Inox. 30L</a>
-                                        <a className='border-b' href={item.downloadLink2} download>{item.model} - 2 Puestos / 2 Cantinas Inox. 30L </a>
-                                        <a className='border-b' href={item.downloadLink3} download>{item.model} - 1 Puesto / 1 Cantina Alum. 40L </a>
-                                        <a className='border-b' href={item.downloadLink4} download>{item.model} - 2 Puestos / 1 Cantina Alum. 40L </a>
-                                        <a className='border-b' href={item.downloadLink5} download>{item.model} - 2 Puestos / 2 Cantinas Alum. 40L </a>
+                            <div className='flex flex-col justify-around items-center w-full py-4 gap-y-2 border-white border-t-[0.1px] border-opacity-40'>
+                                <h1 className='font-bold text-lg lg:text-xl'>{item.name}</h1>
+                                <div className='flex flex-col'>
+                                    <div className='flex flex-row gap-x-2 justify-center items-center text-xs border py-2 px-10 cursor-pointer' onClick={() => toggleDownloadMenu(index)}>
+                                        <img className='w-6' src={download} alt="" />
+                                        <h2>DESCARGAR FICHA TÉCNICA</h2>
                                     </div>
-                                )}
+                                    {downloadMenuIndex === index && (
+                                        <div className='flex flex-col gap-y-2 mt-4'>
+                                            <h2>SELECCIONA EL MODELO: </h2>
+                                            <a className='border' href={item.downloadLink1} download>{item.model}:  1 Puesto / 1 Cantina Inox. 30L</a>
+                                            <a className='border' href={item.downloadLink2} download>{item.model}:  2 Puestos / 2 Cantinas Inox. 30L </a>
+                                            <a className='border' href={item.downloadLink3} download>{item.model}:  1 Puesto / 1 Cantina Alum. 40L </a>
+                                            <a className='border' href={item.downloadLink4} download>{item.model}:  2 Puestos / 1 Cantina Alum. 40L </a>
+                                            <a className='border' href={item.downloadLink5} download>{item.model}:  2 Puestos / 2 Cantinas Alum. 40L </a>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 ))}

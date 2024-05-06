@@ -11,6 +11,8 @@ import Products from './pages/Products'
 import Supplies from './pages/Supplies'
 import Contact from './pages/Contact'
 import StorePerPage from './pages/StorePerPage';
+import OptionsM1 from './pages/OptionsM1';
+import OptionsM2 from './pages/OptionsM2';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +50,14 @@ const router = createBrowserRouter([
       {
         path: '/pagination',
         element: <StorePerPage />
+      },
+      {
+        path: 'options-M1',
+        element: <OptionsM1 />
+      },
+      {
+        path: 'options-M2',
+        element: <OptionsM2 />
       },
     ],
   },

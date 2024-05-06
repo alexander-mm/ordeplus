@@ -19,8 +19,8 @@ export const navLinks = [
 ]
 
 export const listPortableMachines = [
-    { to: "/machines", label: "Buggy Motor Individual" },
-    { to: "/machines", label: "Buggy Doble Motor" },
+    { to: "/options-M1", label: "ORDEBUGGY M1" },
+    { to: "/options-M2", label: "ORDEBUGGY M2" },
     { to: "/machines", label: "Monorrueda" }
 ]
 
@@ -140,10 +140,11 @@ export const swiperFooter = [
 
 export const portableMachines = [
     { 
-        name: "ORDEMÓVIL M1 TIPO BUGGY DE 1 - 4 PUESTOS",
+        name: "ORDEBUGGY M1",
         desc1: "• Motor a Gasolina",
-        desc3: "• De 1 a 4 unidades de ordeño",
+        desc3: "• De 1 a 2 unidades de ordeño",
         model: "M1",
+        to: "/options-M1",
         downloadLink1:"https://drive.google.com/uc?id=1PvLSM0apHUrayphvZmGmVGgKmIMPAD2m&export=download",
         downloadLink2:"https://drive.google.com/uc?id=1rBtfJUoQ5Lvqp0WnZIjHTHlxEPCau9Cl&export=download",
         downloadLink3:"https://drive.google.com/uc?id=1lzZEtOKCpTofUHO8RT4a3yPc4KHTQlGj&export=download",
@@ -153,11 +154,12 @@ export const portableMachines = [
         key:"1",
     },
     { 
-        name: "ORDEMÓVIL M2 TIPO BUGGY DE 1 - 4 PUESTOS",
+        name: "ORDEBUGGY M2",
         desc1: "• Motor a Gasolina",
         desc2: "• Motor Eléctrico",
-        desc3: "• De 1 - 4 unidades de ordeño",
+        desc3: "• De 1 - 2 unidades de ordeño",
         model:"M2",
+        to: "/options-M2",
         downloadLink1:"https://drive.google.com/uc?id=18ccfFUt1BTqDgWNrHKH7p6z4JeEpLY2K&export=download",
         downloadLink2:"https://drive.google.com/uc?id=1X5JtY_aj9f3ivEdSybAe7PLbdv-LTI0H&export=download",
         downloadLink3:"https://drive.google.com/uc?id=1fHlErQHERU_V6TwUeghkpE5RGhbQyHFR&export=download",
@@ -286,6 +288,136 @@ export const pumps = [
                 model: "● MODELO: BVT-3",
                 flow:"● CAUDAL MAX: 1100L/min",
                 powerReq:"● POTENCIA MAX REQUERIDA: 4.0hp/1460rpm",
+            },
+        ]
+    },
+]
+
+export const m1options = [
+    {
+        category: "OPCIONES MODELO M1",
+        items: [
+            {
+                name: "M1 - 1 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M1-1P-1INOX.png",
+                engine: "●  MOTOR A GASOLINA",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 1 UNIDAD DE ORDEÑO",
+                can:"● 1 CANTINA 30L EN ACERO INOXIDABLE",
+                expand:"● EXPANDIBLE A 2 PUESTOS DE ORDEÑO",
+                downloadLink:"https://drive.google.com/uc?id=1PvLSM0apHUrayphvZmGmVGgKmIMPAD2m&export=download",
+                key:"a1"
+            },
+            {
+                name: "M1 - 2 PUESTOS DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M1-2P-2INOX.png",
+                engine: "●  MOTOR A GASOLINA",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 2 CANTINAS 30L EN ACERO INOXIDABLE",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=1rBtfJUoQ5Lvqp0WnZIjHTHlxEPCau9Cl&export=download",
+                key:"a2"
+            },
+            {
+                name: "M1 - 1 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M1-1P-1ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 1 UNIDAD DE ORDEÑO",
+                can:"● 1 CANTINA 40L ALUMINIO-TIPO IMUSA",
+                expand:"● EXPANDIBLE A 2 PUESTOS DE ORDEÑO",
+                downloadLink:"https://drive.google.com/uc?id=1lzZEtOKCpTofUHO8RT4a3yPc4KHTQlGj&export=download",
+                key:"a3"
+            },
+            {
+                name: "M1 - 2 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M1-2P-1ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 1 CANTINA 40L ALUMINIO-TIPO IMUSA",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=1vdRxhIDmAWBDESTlp9znFomNCePYXciP&export=download",
+                key:"a4"
+            },
+            {
+                name: "M1 - 2 PUESTOS DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M1-2P-2ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 2 CANTINAS 40L ALUMINIO-TIPO IMUSA",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=189zACtW079hiLWCcEoEM7aP5NfAMBpFk&export=download",
+                key:"a5"
+            },
+        ]
+    },
+]
+export const m2options = [
+    {
+        category: "OPCIONES MODELO M2",
+        items: [
+            {
+                name: "M2 - 1 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M2-1P-1INOX.png",
+                engine: "●  MOTOR A GASOLINA",
+                engine2: "●  MOTOR ELÉCTRICO",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 1 UNIDAD DE ORDEÑO",
+                can:"● 1 CANTINA 30L EN ACERO INOXIDABLE",
+                expand:"● EXPANDIBLE A 2 PUESTOS DE ORDEÑO",
+                downloadLink:"https://drive.google.com/uc?id=18ccfFUt1BTqDgWNrHKH7p6z4JeEpLY2K&export=download",
+                key:"b1"
+            },
+            {
+                name: "M2 - 2 PUESTOS DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M2-2P-2INOX.png",
+                engine: "●  MOTOR A GASOLINA",
+                engine2: "●  MOTOR ELÉCTRICO",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 2 CANTINAS 30L EN ACERO INOXIDABLE",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=1X5JtY_aj9f3ivEdSybAe7PLbdv-LTI0H&export=download",
+                key:"b2"
+            },
+            {
+                name: "M2 - 1 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M2-1P-1ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                engine2: "●  MOTOR ELÉCTRICO",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 1 UNIDAD DE ORDEÑO",
+                can:"● 1 CANTINA 40L ALUMINIO-TIPO IMUSA",
+                expand:"● EXPANDIBLE A 2 PUESTOS DE ORDEÑO",
+                downloadLink:"https://drive.google.com/uc?id=1fHlErQHERU_V6TwUeghkpE5RGhbQyHFR&export=download",
+                key:"b3"
+            },
+            {
+                name: "M2 - 2 PUESTO DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M2-2P-1ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                engine2: "●  MOTOR ELÉCTRICO",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 1 CANTINA 40L ALUMINIO-TIPO IMUSA",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=1ABCX_e1_QJP-XDXh6CMxH1VHs4QjgoQ0&export=download",
+                key:"b4"
+            },
+            {
+                name: "M2 - 2 PUESTOS DE ORDEÑO",
+                src: "https://www.masqueunefecto.com/wp-content/uploads/2024/05/M2-2P-ALUM.png",
+                engine: "●  MOTOR A GASOLINA",
+                engine2: "●  MOTOR ELÉCTRICO",
+                pump: "● BOMBA BVT-1 TRIUNFO-BRASIL",
+                units: "● 2 UNIDADES DE ORDEÑO",
+                can:"● 2 CANTINAS 40L ALUMINIO-TIPO IMUSA",
+                expand:"",
+                downloadLink:"https://drive.google.com/uc?id=1bhghSlzAySPCKBXy6MhB1MRuARW-gMmE&export=download",
+                key:"b5"
             },
         ]
     },
