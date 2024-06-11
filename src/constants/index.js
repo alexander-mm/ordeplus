@@ -120,7 +120,6 @@ export const swiperSales = [
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI4.jpg", id:4, aspect:'50% 30%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI5.jpg", id:5, aspect:'50% 50%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI7.jpg", id:6, aspect:'50% 20%'},
-    // {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI15.jpg", id:6, aspect:'50% 60%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI14.jpg", id:7, aspect:'50% 60%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI13.jpg", id:8, aspect:'50% 20%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI12.jpg", id:9, aspect:'50% 20%'},
@@ -128,6 +127,10 @@ export const swiperSales = [
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI10.jpg", id:11, aspect:'50% 20%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI9.jpg", id:12, aspect:'50% 20%'},
     {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/03/PI8.jpg", id:13, aspect:'50% 50%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/05/P20.jpg", id:6, aspect:'50% 20%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/06/PI16.jpg", id:6, aspect:'50% 20%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/06/PI18.jpg", id:6, aspect:'50% 20%'},
+    {src:"https://www.masqueunefecto.com/wp-content/uploads/2024/06/PI19.jpg", id:6, aspect:'50% 20%'},
 ]
 
 export const swiperFooter = [
