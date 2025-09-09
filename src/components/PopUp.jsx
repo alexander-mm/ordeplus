@@ -19,7 +19,7 @@ const PopUp = ({ onImageClick }) => {
             zIndex: 9999,
         }}>
             <img src={logo} className=" w-64 sm:w-96 mt-6 mb-14" alt="" />
-            <p className=" md:text-4xl font-normal mb-14" >EN QUE LUGAR TE ENCUENTRAS?</p>
+            <p className=" md:text-4xl font-normal mb-14" >EN QUE PAÍS TE ENCUENTRAS?</p>
             <p>COLOMBIA</p>
             <img className="cursor-pointer w-[200px] mt-4 mb-10 border-4 border-white rounded-full" src={colombia} alt="Imagen 1" onClick={() => onImageClick(1)} />
             <p>ECUADOR</p>
