@@ -11,7 +11,7 @@ const FloatingChatCO = () => {
                 ¿Tienes dudas? Haz clic y habla con nuestro equipo ahora!
             </div>
             <a
-                href="https://api.whatsapp.com/send?phone=573186441844"
+                href="https://api.whatsapp.com/send?phone=573207821347"
                 className="floating-chat z-[2000] bottom-[110px] xs:bottom-[35px] xs2:bottom-[20px] sm:bottom-[8px] left-[10px]"
                 target="_blank"
                 rel="noopener noreferrer"
