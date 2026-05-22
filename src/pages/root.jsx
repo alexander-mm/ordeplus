@@ -15,13 +15,19 @@ export default function Root() {
 
     return (
         <div className="flex flex-col min-h-screen">
-            <Navbar />
-            <div className="flex-grow bg-mainBlue">
+            <Navbar
+                contactLinksOption={contactLinksOption}
+            />
+            <div className="flex-grow bg-whiteNew">
                 <Outlet />
             </div>
             <div className="bg-custom-gradient-two">
-                {showPopup && <PopUp onImageClick={handleImageClick} />}
-                <Footer contactLinksOption={contactLinksOption} />
+                {showPopup &&
+                    <PopUp onImageClick={handleImageClick} />
+                }
+                <Footer
+                    contactLinksOption={contactLinksOption}
+                />
             </div>
         </div>
     );

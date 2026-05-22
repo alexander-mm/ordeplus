@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react'
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 import { logo } from '../assets/images'
+import { whatsapp } from '../assets/images'
 import { hamburger } from '../assets/icons'
 import { close } from '../assets/icons'
 import { arrow } from '../assets/icons'
 import { subLinksEngines, subLinksPumps, subLinksProducts, subLinksSupplies, listPortableMachines, navLinks } from '../constants'
 import '../css/userCss.css';
 
-const Navbar = () => {
+const Navbar = ({ contactLinksOption }) => {
 
     useEffect(() => {
         const smoothScrollToTop = () => {
@@ -26,13 +28,13 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <header className='w-full bg-mainBlue border-white border-b-[0.1px] border-opacity-40 fixed no-select z-10'>
+        <header className='w-full bg-white border-white border-b-[0.1px] border-opacity-40 fixed no-select z-10'>
             <nav className='flex gap-8 justify-between items-center mx-4 py-4 max-container relative'>
                 {/*NAVBAR*/}
                 <Link to="/" className='min-w-[200px]'>
                     <img to="/" src={logo} alt="Logo" width={200} />
                 </Link>
-                <ul className='flex-1 flex justify-end items-center gap-0 max-lg:hidden text-white text-[13.4px] xl:text-lg font-avenir font-thin py-2 md:py-0 md:gap-x-2'>
+                <ul className='flex-1 flex justify-center items-center gap-0 max-lg:hidden text-black text-[13.4px] xl:text-lg font-avenir font-bold py-2 md:py-0 md:gap-x-2'>
                     <li>
                         <Link
                             className='p-3 cursor-pointer'
@@ -134,6 +136,21 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
+                <div className='bg-mainBlue rounded-full p-2'>
+    <a
+        href={
+            contactLinksOption === 1
+                ? "https://wa.me/573207821347"
+                : "https://wa.me/593982886158"
+        }
+        target="_blank"
+        rel="noreferrer"
+        className='text-white font-bold flex justify-between items-center gap-2'
+    >
+        <img src={whatsapp} alt="Logo" width={25}/>
+        WhatsApp
+    </a>
+</div>
                 {/*HAMBURGER MENU*/}
                 <div className='hidden max-lg:flex'>
                     <img
@@ -237,6 +254,10 @@ const Navbar = () => {
             </div>
         </header>
     );
+};
+
+Navbar.propTypes = {
+    contactLinksOption: PropTypes.number,
 };
 
 export default Navbar;
